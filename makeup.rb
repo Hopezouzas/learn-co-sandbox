@@ -11,7 +11,7 @@ def makeup
   puts "How many primers do you have?".white
   primers = gets.chomp.to_i
   
-  puts "How many fondations do you have?".yellow
+  puts "How many foundations do you have?".yellow
   fondations = gets.chomp.to_i
   
   puts "How many contours do you have?".magenta
@@ -54,9 +54,9 @@ def makeup
     puts "You are a regular makeup user!"
     else totalmakeup > 30
     puts "Hey sister! You are a makeup master!"
+  end 
     
   end 
-end 
-
-
+  
 makeup
+
